@@ -1,0 +1,775 @@
+{
+  "name": "Ready Or Not",
+  "author": "Devlin",
+  "vRequests": [
+    {
+      "phrases": [
+        "red",
+        "red team"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{F7}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "blue",
+        "blue team"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{F6}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "gold",
+        "gold team",
+        "all",
+        "team"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{F5}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "do that"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{Z}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "fall in",
+        "regroup",
+        "on me"
+      ],
+      "macro": {
+        "msToWait": 1,
+        "keycodes": [
+          "{HOME}",
+          "{2}",
+          "{1}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "move there",
+        "move",
+        "go there",
+        "over there"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{1}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "cover",
+        "cover there",
+        "provide cover"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "stop",
+        "hold",
+        "halt"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{4}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "throw flash bang",
+        "toss flash bang",
+        "deploy flash bang"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{5}",
+          "{1}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "throw stinger",
+        "toss stinger",
+        "deploy stinger"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{5}",
+          "{2}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "throw gas",
+        "toss gas",
+        "deploy gas"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{5}",
+          "{3}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "throw chem light",
+        "toss chem light",
+        "deploy chem light"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{5}",
+          "{4}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "shield",
+        "use shield",
+        "deploy shield"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{5}",
+          "{5}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "search area",
+        "search there",
+        "search room"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{6}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "stack up on that door",
+        "stack up",
+        "on that door"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{1}",
+          "{4}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "clear that door"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{2}",
+          "{1}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "clear that door with flash"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{2}",
+          "{2}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "clear that door with stinger"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{2}",
+          "{3}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "clear that door with gas"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{2}",
+          "{4}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "clear that door with launcher"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{2}",
+          "{5}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "clear that door on me"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{2}",
+          "{6}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "kick that door down and clear",
+        "breach that door and clear",
+        "breach and clear"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{1}",
+          "{1}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "kick that door down and flash",
+        "breach that door and flash",
+        "breach and flash"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{1}",
+          "{2}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "kick that door down and stinger",
+        "breach that door and stinger",
+        "breach and stinger"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{1}",
+          "{3}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "kick that door down and gas",
+        "breach that door and gas",
+        "breach and gas"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{1}",
+          "{4}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "kick that door down and launcher",
+        "breach that door and launcher",
+        "breach and launcher"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{1}",
+          "{5}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "kick that door down and clear on me",
+        "breach that door and clear on me",
+        "breach and clear on me"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{1}",
+          "{6}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "shotgun that door down and clear",
+        "shotgun that door and clear",
+        "shotgun and clear"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{2}",
+          "{1}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "shotgun that door down and flash",
+        "shotgun that door and flash",
+        "shotgun and flash"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{2}",
+          "{2}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "shotgun that door down and stinger",
+        "shotgun that door and stinger",
+        "shotgun and stinger"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{2}",
+          "{3}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "shotgun that door down and gas",
+        "shotgun that door and gas",
+        "shotgun and gas"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{2}",
+          "{4}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "shotgun that door down and launcher",
+        "shotgun that door and launcher",
+        "shotgun and launcher"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{2}",
+          "{5}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "shotgun that door down and clear on me",
+        "shotgun that door and clear on me",
+        "shotgun and clear on me"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{2}",
+          "{6}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "c2 that door down and clear",
+        "c2 that door and clear",
+        "c2 and clear"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{3}",
+          "{1}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "c2 that door down and flash",
+        "c2 that door and flash",
+        "c2 and flash"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{3}",
+          "{2}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "c2 that door down and stinger",
+        "c2 that door and stinger",
+        "c2 and stinger"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{3}",
+          "{3}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "c2 that door down and gas",
+        "c2 that door and gas",
+        "c2 and gas"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{3}",
+          "{4}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "c2 that door down and launcher",
+        "c2 that door and launcher",
+        "c2 and launcher"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{3}",
+          "{5}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "c2 that door down and clear on my signal",
+        "c2 that door and clear on me",
+        "c2 and clear with me"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{3}",
+          "{6}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "ram that door down and clear",
+        "ram that door and clear",
+        "ram and clear"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{4}",
+          "{1}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "ram that door down and flash",
+        "ram that door and flash",
+        "ram and flash"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{4}",
+          "{2}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "ram that door down and stinger",
+        "ram that door and stinger",
+        "ram and stinger"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{4}",
+          "{3}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "ram that door down and gas",
+        "ram that door and gas",
+        "ram and gas"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{4}",
+          "{4}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "ram that door down and launcher",
+        "ram that door and launcher",
+        "ram and launcher"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{4}",
+          "{5}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "ram that door down and clear on my signal",
+        "ram that door and clear on me",
+        "ram and clear with me"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{4}",
+          "{6}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "i'll breach you clear",
+        "i'll breach that door and you clear",
+        "i'll breach and you clear"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{5}",
+          "{1}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "i'll breach you flash",
+        "i'll breach that door and you flash",
+        "i'll breach and you flash"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{5}",
+          "{2}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "i'll breach you stinger",
+        "i'll breach that door and you stinger",
+        "i'll breach and you stinger"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{5}",
+          "{3}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "i'll breach you gas",
+        "i'll breach that door and you gas",
+        "i'll breach and you gas"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{5}",
+          "{4}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "i'll breach you launcher",
+        "i'll breach that door and you launcher",
+        "i'll breach and you launcher"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{5}",
+          "{5}"
+        ]
+      }
+    },
+    {
+      "phrases": [
+        "i'll breach you clear on my signal",
+        "i'll breach that door and you clear on my signal",
+        "i'll breach and you clear on my signal"
+      ],
+      "macro": {
+        "msToWait": 0,
+        "keycodes": [
+          "{HOME}",
+          "{3}",
+          "{5}",
+          "{6}"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿<Window x:Class="VComm.Core.Windows.Overlay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:tb="http://www.hardcodet.net/taskbar"
+        xmlns:local="clr-namespace:VComm.Core.Windows"
+        xmlns:vcomm="clr-namespace:VComm.Core"
+        mc:Ignorable="d"
+        Title="Overlay" Loaded="Window_Loaded" Height="1080" Width="1920" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen" WindowState="Normal" WindowStyle="None" Background="{x:Null}" AllowsTransparency="True" ShowActivated="False" ShowInTaskbar="False">
+    <Grid>
+        <tb:TaskbarIcon LeftClickCommand="{Binding ShowSettingsCommand, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" IconSource="pack://application:,,,/Core/Assets/Images/vcomm.ico">
+            <tb:TaskbarIcon.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Click="OpenSettings"
+                    Header="SETTINGS"/>
+                    <MenuItem Click="ExitApp"
+                    Header="EXIT VCOMM"/>
+                </ContextMenu>
+            </tb:TaskbarIcon.ContextMenu>
+        </tb:TaskbarIcon>
+        <Grid x:Name="OverlayGrid" Opacity="0.35">
+            <TextBlock TextWrapping="Wrap" FontSize="48" TextAlignment="Center" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Width="230" Height="45" VerticalAlignment="Top" FontFamily="Jepanten" Text="VCOMM"/>
+            <Grid Height="55" VerticalAlignment="Top" Canvas.Left="364" Margin="230,18,0,0" HorizontalAlignment="Left" Width="730">
+                <ProgressBar x:Name="VolumeBar" Height="29" Canvas.Left="510" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" Foreground="#FF06B025" BorderBrush="{x:Null}" VerticalAlignment="Top"/>
+                <TextBlock x:Name="RecognizedText" FontWeight="Bold" Foreground="#FFFFAF00" FontSize="20" Height="27" VerticalAlignment="Top" Margin="0,28,0,0"/>
+            </Grid>
+            <TextBlock TextWrapping="Wrap" FontSize="14" TextAlignment="Center" FontWeight="Bold" Foreground="White" HorizontalAlignment="Left" Width="130" Height="14" VerticalAlignment="Top" Margin="117,38,0,0" FontFamily="Jepanten"><Run Text="IS RUNNING"/><Run Language="en-gb" Text="..."/></TextBlock>
+        </Grid>
+    </Grid>
+</Window>

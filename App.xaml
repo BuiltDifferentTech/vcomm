@@ -1,0 +1,14 @@
+﻿<Application x:Class="VComm.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:VComm"
+             Startup="App_Start">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/VComm;component/Core/Assets/Styles/VCommTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <FontFamily x:Key="Jepanten">pack://application:,,,/Core/Assets/Fonts/Jepanten</FontFamily>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

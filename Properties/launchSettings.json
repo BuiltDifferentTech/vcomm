@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "VComm": {
+      "commandName": "Project",
+      "commandLineArgs": "-console"
+    }
+  }
+}

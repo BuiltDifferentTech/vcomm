@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <UseWindowsForms>True</UseWindowsForms>
+    <StartupObject>VComm.App</StartupObject>
+    <ApplicationIcon>Core\Assets\Images\vcomm.ico</ApplicationIcon>
+    <FileVersion>1.0.2.3</FileVersion>
+    <AssemblyVersion>1.0.2.3</AssemblyVersion>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="VComm.Tests\**\*.cs" />
+    <None Remove="VComm.Tests\**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Core\Assets\Fonts\Jepanten.ttf" />
+    <None Remove="Core\Assets\Images\VCOMM_icon_2.png" />
+    <None Remove="Core\Assets\Ready Or Not.vcomm" />
+    <None Remove="Core\Assets\Sounds\chime.wav" />
+    <None Remove="Core\Assets\VCOMM_big.png" />
+    <None Remove="Core\Assets\VCOMM_big_2.png" />
+    <None Remove="Core\Assets\VCOMM_icon.png" />
+    <None Remove="Core\Assets\VCOMM_small_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Core\Assets\VPacks\Ready Or Not.vcomm" />
+    <EmbeddedResource Include="Core\Assets\Sounds\chime.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Core\Assets\Fonts\Jepanten.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Core\Assets\Images\VCOMM_big.png" />
+    <Resource Include="Core\Assets\Images\VCOMM_icon_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Core\Assets\Images\vcomm.ico" />
+    <Resource Include="Core\Assets\Images\VCOMM_big_2.png" />
+    <Resource Include="Core\Assets\Images\VCOMM_icon.png" />
+    <Resource Include="Core\Assets\Images\VCOMM_small_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="1.1.0" />
+    <PackageReference Include="InputSimulatorCore" Version="1.0.5" />
+    <PackageReference Include="MouseKeyHook" Version="5.7.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Speech" Version="8.0.0" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
+</Project>
